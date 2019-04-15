@@ -1,0 +1,92 @@
+@charset "utf-8";
+body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,select,img{ margin: 0; padding:0; /* [disabled]padding:0; */}
+html{font-family: "Microsoft Yahei"}
+html{font-size:50px;}
+body{font-size:24px;}
+@media screen and (min-width:320px){
+html{font-size:21.333333333333332px!important;}
+body{font-size:12px!important;}
+}
+@media screen and (min-width:360px){
+html{font-size:24px!important;}
+body{font-size:12px!important;}
+}
+@media screen and (min-width:375px){
+html{font-size:25px!important;}
+body{font-size:12px!important;}
+}
+@media screen and (min-width:384px){
+html{font-size:25.6px!important;}
+body{font-size:14px!important;}
+body{font-size:14px!important;}
+
+}
+@media screen and (min-width:400px){
+html{font-size:26.666666666666668px!important;}
+    body{font-size:14px!important;}
+}
+@media screen and (min-width:414px){
+html{font-size:27.6px!important;}
+body{font-size:14px!important;}
+}
+@media screen and (min-width:424px){
+html{font-size:28.266666666666667px!important;}
+    body{font-size:14px!important;}
+}
+@media screen and (min-width:480px){
+html{font-size:32px!important;}
+body{font-size:15.36px!important;}
+}
+@media screen and (min-width:540px){
+html{font-size:36px!important;}
+body{font-size:17.28px!important;}
+}
+@media screen and (min-width:720px){
+html{font-size:48px!important;}
+body{font-size:23.04px!important;}
+}
+@media screen and (min-width:750px){
+html{font-size:50px!important;}
+body{font-size:24px!important;}
+}
+select::-ms-expand{
+    display: none;
+}
+input{
+    border-radius: 0
+}
+input[type=search] {
+    appearance: textfield;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    -o-appearance: textfield;
+    -ms-animation: textfield;
+}
+html,body{
+    width: 100%;
+}
+select{
+    /* Chrome */
+    -webkit-appearance: none;
+    /* Firefox */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: ' '; /* space */
+}
+
+li{list-style: none;}
+a{text-decoration:none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  outline: 0;}
+	body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #333333;
+  }
+  textarea,input{
+      border:none;
+  }
+
+input,button{outline:none}
+
